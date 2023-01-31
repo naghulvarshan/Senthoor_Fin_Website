@@ -1,0 +1,124 @@
+.container {
+  /* background-image: linear-gradient(
+    to right,
+    #8860d0,
+    #84ceeb,
+    #5680e9,
+    #8860d0
+  ); */
+  /* border-radius: 10px; */
+  background-color: #eaeaea;
+  padding: 10px 20px;
+}
+
+p{
+  font-family: sans-serif;
+  /* width: 75%; */
+  font-size: 20px;
+}
+h1 {
+  /* font-family: "FrutigerCE55RomanRegular"; */
+  font-family: sans-serif;
+  color: rgb(3, 87, 143,0.7);
+}
+ul {
+  list-style: square;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+}
+li {
+  /* width: 55%; */
+  height: 90px;
+}
+head {
+  background-color: white;
+  color: black;
+}
+#content {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5% 5%;
+  background-color: white;
+}
+
+.i {
+  margin-left: 50%;
+}
+html {
+  background-color: #f2f2f2;
+  overflow: none;
+}
+.bli {
+  height: 120px;
+}
+.otherblogs a {
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  padding: 5% 5%;
+  padding-bottom: 0;
+  color: blue;
+}
+.otherblogs a:visited {
+  text-decoration: none;
+  color: blue;
+}
+.otherblogs a:hover {
+  background-color: rgb(163, 163, 163);
+}
+.other {
+  font-size: 15px;
+}
+.otherblogs {
+  position: relative;
+  border-top: 5px solid rgb(3, 87, 143,0.7);
+  padding-top: 10px;
+}
+.el {
+  position: absolute;
+  left: 17.5%;
+}
+#related {
+  color: rgb(3, 87, 143,0.7);
+}
+
+
+  #blog{
+    color:#5680E9 ;
+  }
+
+  #service,#contact,#customer,#home{
+    color: black; 
+  }
+  *{
+    font-family: sans-serif;
+  }
+.banner{
+  padding-top: 2.5%;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.txt {
+  padding-left: 20%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 50%;
+}
+.bn {
+  display: inline-block;
+  font-size: 3vw;
+}
+.bn1 {
+  display: inline-block;
+  font-size: 3vw;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-top: 0;
+}

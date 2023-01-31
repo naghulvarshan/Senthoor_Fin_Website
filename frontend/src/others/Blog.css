@@ -1,0 +1,160 @@
+.blog1,
+.blog3 {
+  background-color: rgba(95, 228, 223,0.1);
+  position: relative;
+  display: inline-block;
+  margin-right: 15%;
+  margin-left: 5%;
+  padding: 50px 50px;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom: 5px solid rgba(0,0,255,0.3);
+  box-shadow:  0px 2px 3px rgba(0,0,255,0.1), 2px 0px 3px rgba(0,0,255,0.1),0px -2px 3px rgba(0,0,255,0.1),-2px 0px 3px rgba(0,0,255,0.1);
+  transition: 0.5s;
+}
+.blog2,
+.blog4 {
+  background-color: rgba(95, 228, 223,0.1);
+  display: inline-block;
+  position: relative;
+  margin-left: 6%;
+  padding: 50px 50px;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom: 5px solid rgba(0,0,255,0.3);
+  box-shadow:  0px 2px 3px rgba(0,0,255,0.1), 2px 0px 3px rgba(0,0,255,0.1),0px -2px 3px rgba(0,0,255,0.1),-2px 0px 3px rgba(0,0,255,0.1);
+  transition: background-color 0.5s,color 0.5s;
+}
+.up {
+  padding: 50px 0;
+  border-right: 20%;
+  margin-right: 100px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+.down {
+  padding: 50px 0;
+  border-right: 20%;
+  margin-right: 100px;
+  margin-left: 10%;
+}
+.blog1:hover,
+.blog2:hover,
+.blog3:hover,
+.blog4:hover {
+  padding: 50px 52.5px;
+  background-color: black;
+  color:white;
+}
+.blog1:hover,
+.blog2:hover,
+.blog3:hover,
+.blog4:hover  p{
+  font-weight: 800 !important;
+  color:white;
+}
+.p1 {
+  width: 300px;
+}
+.a1:link {
+  text-decoration: none;
+  color: black;
+}
+.a1:visited {
+  color: black;
+}
+.blog1:hover a,
+.blog2:hover a,
+.blog3:hover a,
+.blog4:hover a{
+  color:white;
+}
+  
+
+  #sub{ 
+    padding-left: 25%;
+    font-size:3vw;
+    margin-top: 2%;
+}
+
+  #news{
+    box-shadow: 0px 5px 10px gray,5px 0px 10px gray,0px -5px 10px gray,-5px 0px 10px gray;
+    display:flex;
+}
+#email{
+    border-color: rgb(3, 87, 143,0.7);
+    height: 44px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 1vw;
+    width:97.9%;
+  }
+#news form{
+    flex-basis:80%;
+}
+#button{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(3, 87, 143);
+    border-color: rgb(3, 87, 143);
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    flex-basis: 20%;
+  }
+
+@media screen and (min-width: 900px){
+    #sub{
+        font-size:1.5vw;
+        padding-left: 36%;
+    }
+    #news{
+        margin-left: 37%;
+        margin-right:36%;
+    }
+    #email{
+        width: 20vw;
+    }
+    #button{
+        width: 6vw;
+        font-size: 1vw;
+    }
+}
+
+*{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.blog1 a img,.blog2 a img,.blog3 a img,.blog4 a img{
+  border-radius: 10px;
+}
+
+#bg1{
+  height:65vh;
+  margin:auto;
+}
+
+#bg1 img{
+  object-fit:cover;
+  object-position:right;
+}
+.blog-main-body-cover{
+  padding-top: 3.6%;
+}
+#text{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+#bgc{
+  position: relative;
+}
+#bgct{
+  position: absolute;
+  left:46%;
+  font-size: 40px;
+  color:white;
+  font-weight: 600;
+}

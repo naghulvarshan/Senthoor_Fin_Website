@@ -1,0 +1,31 @@
+@API_URL = http://localhost:3001/student2 
+
+
+###checked
+###
+POST  {{API_URL}}/add2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFhYWFAZ21haWwuY29tIiwiUG9zaXRpb24iOjAsImlkIjozLCJpYXQiOjE2NTc0MzE5ODIsImV4cCI6MTY1NzU3NTk4Mn0.RxOimoPGvPezwTnHH-WKpmQrPKqoZiX6nN_-rGb7BNU
+Content-Type: application/json
+
+{        
+    "col1":"aaa5",
+    "col2":"aaa",
+    "col3":"aaa",
+    "col4":"aaa"
+    
+               
+    
+}
+
+
+###checked
+###
+POST  {{API_URL}}/fetch2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFhYWFAZ21haWwuY29tIiwiUG9zaXRpb24iOjAsImlkIjozLCJpYXQiOjE2NTc0MzE5ODIsImV4cCI6MTY1NzU3NTk4Mn0.RxOimoPGvPezwTnHH-WKpmQrPKqoZiX6nN_-rGb7BNU
+Content-Type: application/json
+
+{           
+               
+    
+}
+
